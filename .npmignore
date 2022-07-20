@@ -7,3 +7,5 @@ node_modules
 .watchmanconfig
 .idea
 /android/build/
+android/.gradle
+
