@@ -4,14 +4,8 @@
   "version": "1.6.2",
   "description": "Native image crop tools with embeddable UI and on the fly aspect ratio switchin",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json --fix",
-    "prepublishOnly": "npm run lint",
-    "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.js\""
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,23 +25,20 @@
     "typescript"
   ],
   "author": {
-    "name": "Hunaid Hassan",
-    "email": "hhunaid@gmail.com"
+    "name": "Stampix",
+    "url": "https://stampix.com"
   },
   "license": "MIT",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "^16.8.1",
-    "react-native": ">=0.59.0-rc.0 <1.0.x"
+    "react": "^17.0.2",
+    "react-native": ">=0.65.0"
   },
   "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "^0.61.0",
-    "tslint": "^5.17.0",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-react": "^4.0.0",
-    "typescript": "^3.7.2",
-    "prettier": "^1.19.1",
-    "@types/react-native": "^0.60.23"
+    "@types/react-native": "0.68.2",
+    "prettier": "2.7.1",
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "typescript": "4.7.4"
   }
 }
