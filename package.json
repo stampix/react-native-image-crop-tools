@@ -14,7 +14,6 @@
     "ios",
     "cpp",
     "react-native-crop-tools.podspec",
-    "!lib/typescript/example",
     "!android/build",
     "!ios/build",
     "!**/__tests__",
@@ -27,16 +26,18 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
     "release": "release-it",
-    "example": "yarn --cwd example",
     "bootstrap": "yarn example && yarn && yarn example pods"
   },
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "image-cropper",
+    "images",
+    "cropper"
   ],
   "repository": "https://github.com/stampix/react-native-image-crop-tools",
-  "author": "Stampix <mauricevanwassenhove@gmail.com> (https://stampix.com)",
+  "author": "Stampix (https://stampix.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stampix/react-native-image-crop-tools/issues"
@@ -77,7 +78,6 @@
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
       "<rootDir>/lib/"
     ]
   },
