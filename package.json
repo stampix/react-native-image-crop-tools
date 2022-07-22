@@ -24,8 +24,10 @@
     "test": "jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "lint:fix": "eslint \"**/*.{js,ts,tsx}\" --fix",
     "prepare": "bob build",
-    "release": "release-it"
+    "release": "release-it",
+    "bootstrap": "yarn"
   },
   "keywords": [
     "react-native",
@@ -104,7 +106,7 @@
   },
   "eslintConfig": {
     "root": true,
-    "parser": "@babel/eslint-parser",
+    "parser": "@typescript-eslint/parser",
     "extends": [
       "@react-native-community",
       "prettier"
