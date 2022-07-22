@@ -60,6 +60,7 @@ android {
 repositories {
   mavenCentral()
   google()
+  maven { url 'https://jitpack.io' }
 
   def found = false
   def defaultDir = null
@@ -132,6 +133,7 @@ def kotlin_version = getExtOrDefault('kotlinVersion')
 dependencies {
     //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
+  implementation 'com.github.CanHub:Android-Image-Cropper:4.3.1'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 // From node_modules
 }

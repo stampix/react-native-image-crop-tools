@@ -1,4 +1,4 @@
-package com.parsempo.ImageCropTools
+package com.reactnativecroptools
 
 import android.graphics.Bitmap
 import android.net.Uri
