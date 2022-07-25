@@ -1,5 +1,5 @@
 {
-  "name": "react-native-crop-tools",
+  "name": "@stampix/react-native-crop-tools",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -44,9 +44,6 @@
     "url": "https://github.com/stampix/react-native-image-crop-tools/issues"
   },
   "homepage": "https://github.com/stampix/react-native-image-crop-tools#readme",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.7",
     "@babel/eslint-parser": "^7.18.2",
